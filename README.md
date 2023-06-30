@@ -1,7 +1,5 @@
 
-This repository contains python scripts that assembles the `.hdf` SA-XPCS result files from APS 8-ID-I Beamline into the figures in the manuscript.
-
-generate the figures used in the Robotic Pendant Drop manuscript. 
+This repository contains python scripts that assemble the `.hdf` SA-XPCS result files from APS 8-ID-I Beamline into the figures in the manuscript.
 
 ## Figure Scripts
 `/Figure_scripts/` 
