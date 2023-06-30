@@ -9,7 +9,7 @@ This repository contains python scripts that assemble the `.hdf` SA-XPCS result 
 - Fig. 5, g2 with and without polycarbonate enclosure:`/Figure_scripts/Plot_noisy_vs_isolated_droplet.ipynb`
 
 `/Figures/`  
-All figure files in `.pdf` format with the correct size (86 cm for single column, 172 cm for double column)
+All figure files in `.pdf` format.
 
 `/Data`   
 `.hdf` XPCS result files from APS Beamline 8-ID-I
