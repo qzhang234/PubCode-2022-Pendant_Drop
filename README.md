@@ -1,26 +1,20 @@
-# aps_droplet
-This repository consists a documentation for the "Droplet" experiment to be performed at APS, Argonne National Laboratory.
+
+This repository contains python scripts that assembles the `.hdf` SA-XPCS result files from APS 8-ID-I Beamline into the figures in the manuscript.
+
+generate the figures used in the Robotic Pendant Drop manuscript. 
 
 ## Figure Scripts
-`/Data_Analysis/Figure_scripts/` 
+`/Figure_scripts/` 
 
-- Generate SAXS 1D figure. `/Data_Analysis/Figure_scripts/Plot_SAXS.ipynb`
-- Generate g2 vs. τ and τ0(Q) vs. Q figure. `/Data_Analysis/Figure_scripts/Plot_g2_tauQ.ipynb`
-- Generate casing vs noncasing droplet figure. `/Data_Analysis/Figure_scripts/Plot_noisy_vs_isolated_droplet.ipynb`
-- Generate SamX vs SamZ figure. `/Data_Analysis/Figure_scripts/Plot_samx_vs_samz.ipynb`
-- Generate Droplet setup figure. `/Data_Analysis/Figure_scripts/Plot_droplet_setup.ipynb`
+- Fig. 2, Transmitted x-ray intensity vs. SamX and SamZ: `Figure_scripts/Plot_samx_vs_samz.ipynb`
+- Fig. 3, SAXS 1D: `Figure_scripts/Plot_SAXS.ipynb`
+- Fig. 4, g2 vs. τ and τ0(Q) vs. Q: `/Figure_scripts/Plot_g2_tauQ.ipynb`
+- Fig. 5, g2 with and without polycarbonate enclosure:`/Figure_scripts/Plot_noisy_vs_isolated_droplet.ipynb`
+
 
 ## Figures
-`/Data_Analysis/Figures/`
+`/Figures/`  
+
 ## Data
-- `/Data_Analysis/Data`
-Assembly of .hdf result files from APS Beamline 8-ID-I containing g2 and I vs. Q data for plotting the figures in the manuscript.
-## Python script
-- `/ur3_driver/ur3_driver/ur3_driver.py` 
-This program performs the full experiment by controlling UR3e robot, tool changer, electronic pipette and the camera. 
-# Installation 
-
-To install the URx and PyEPICS libraries 
-
-- `pip install urx`
-- `pip install pyepics`
+- `/Data`
+`.hdf` XPCS result files from APS Beamline 8-ID-I
