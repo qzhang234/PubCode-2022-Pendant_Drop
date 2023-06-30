@@ -11,5 +11,5 @@ This repository contains python scripts that assemble the `.hdf` SA-XPCS result 
 `/Figures/`  
 All figure files in `.pdf` format with the correct size (86 cm for single column, 172 cm for double column)
 
-- `/Data`
+`/Data`   
 `.hdf` XPCS result files from APS Beamline 8-ID-I
